@@ -1,0 +1,69 @@
+
+h1 {
+    color: #0077b5;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+.button {
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+ul, ol, dl {
+    margin: 20px;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+h2 + p {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-line {
+    font-weight: bold;
+}
